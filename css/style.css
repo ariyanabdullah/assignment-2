@@ -1,0 +1,229 @@
+ /*  common-style */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container {
+    width: 1261px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+main {
+    margin-top: -67px;
+}
+.blog-menu {
+    width: 375px;
+    margin-right: 3%;
+}
+/* banner-section */
+.banner-section {
+    margin-bottom: 86px;
+}
+
+.banner-main {
+    display: flex;
+    margin-top: 126px;
+    background: #161616;
+    padding-top: 27px;
+    border-radius: 25px;
+}
+.banner-left {
+    width: 41%;
+    margin-left: 7%;
+}
+.show {
+    font-size: 52px;
+    font-family: poppins;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+  .popular {
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Poppins';
+    margin-bottom: 41px;
+}
+.link-buton {
+    color: #ffff;
+    font-family: 'Poppins';
+    text-decoration: none;
+    background: #dd0000;
+    font-size: 18px;
+    padding: 14px 23px;
+    border-radius: 7px;
+    transition: .4s all;
+}
+.link-buton:hover {
+    background: #161616;
+    color: #ffff;
+    border: 1px solid #ffff;
+}
+.buton-icon {
+    margin-left: 12px;
+}
+.banner-right {
+    width: 50%;
+    text-align: center;
+}
+.banner-right-image img {
+    width: 70%;
+}
+/* banner-section-end */
+/* -------------------------------------------- */
+
+/* blog-section-start */
+.blog {
+    display: flex;
+    margin-bottom: 50px;
+}
+/* .blog-left {
+    width: 22%;
+    margin-right: 4%;
+} */
+.menu {
+    text-align: center;
+    background: #161616;
+    padding: 23px 18px;
+    border-radius: 10px;
+}
+.menu-item {
+    display: block;
+    text-decoration: none;
+    color: #161616;
+    background: white;
+    margin: 13px 0;
+    padding: 11px 11px;
+    font-size: 23px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+.active-blog{
+    background: #dd0000;
+    color: white;
+    
+}
+
+/* blog-right */
+.blog-right {
+    width: 74%;
+}
+.blog-item-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 52px 33px;
+}
+.box {
+    box-shadow: 0px 0px 7px 5px #f0f0f0;
+    border-radius: 10px;
+}
+.box-image {
+    width: 100%;
+    margin-bottom: 12px;
+}
+.box-buton {
+    text-decoration: none;
+    color: #161616;
+    font-size: 18px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 1px solid #2a2727;
+    padding: 4px 21px;
+}
+.transfer {
+    margin-left: 15px;
+    color: #161616;
+    font-size: 17px;
+    font-weight: 600;
+}
+.box-bottom {
+    margin-left: 15px;
+    display: flex;
+    margin-bottom: 21px;
+}
+.box-bottom-left {
+    font-size: 18px;
+    color: #585454;
+    margin-right: 56px;
+    font-weight: 500;
+}
+
+.box-bottom-right {
+    font-size: 18px;
+    color: #585454;
+    font-weight: 500;
+}
+
+.blog-buton{
+    display: none;
+}
+/* footer style start */
+.footer {
+    background: #161616;
+    text-align: center;
+    padding-top: 33px;
+    padding-bottom: 40px;
+    margin-top: 130px;
+}
+.goal {
+    color: #fff;
+    font-size: 50px;
+    display: inline-block;
+    font-weight: 900;
+}
+.horizontal-line {
+    width: 71%;
+    border: 1px solid #2c2c2c;
+}
+.footer-menu {
+    margin-top: 50px;
+}
+.footer-menu-item {
+    text-decoration: none;
+    color: #999999;
+    font-size: 20px;
+    margin-left: 43px;
+}
+.footer-social {
+    display: inline-block;
+    margin-top: 46px;
+}
+.footer-social a {
+    text-decoration: none;
+}
+.footer-social i {
+    font-size: 32px;
+    margin-left: 12px;
+    color: #999999;
+}
+/* --------------------------------------------------------------------------------
+upcoming
+----------------------------------------------------------------------- */
+
+.Upcoming {
+    background: #dd0000;
+    color: white;
+}
+.Upcoming-box {
+    box-shadow: 0px 0px 7px 5px #f0f0f0;
+    border-radius: 10px;
+    padding: 17px 0;
+    text-align: center;
+}
+.upcoming-box-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.vs {
+    color: #161616;
+    font-size: 33px;
+    font-weight: 700;
+}
+span.upcoming-box-bottom {
+    color: #535353;
+    font-size: 15px;
+    font-weight: 100;
+}
